@@ -56,7 +56,7 @@ Curso JavaScript: Programando na linguagem da web: https://cursos.alura.com.br/c
 ```
 - Dessa forma chamamos um arquivo externo. Seguindo o mesmo conceito de ordem a ser executado.
 
-> O basico de um JavaScritp, primeiro js:
+> O basico de um JavaScritpt, primeiro js:
 
 ```html
     <script>
@@ -79,7 +79,7 @@ Curso JavaScript: Programando na linguagem da web: https://cursos.alura.com.br/c
 
 >Agora que vimos o basico mesmo do javascript, uma forma interessante de manipular o HTML é ultilizando o ```QuerySelector("")```
 
-- So que para ultilizar esse javascript precisamos saber mais sobre o > **DOM** (**Document Object Model**) < representação do ```HTML``` para o nosso JavaScript, acessível por uma palava do JavaScript chamada ```document```.
+- Só que para ultilizar esse JavaScript precisamos saber mais sobre o > **DOM** (**Document Object Model**) < representação do ```HTML``` para o nosso JavaScript, acessível por uma palava do JavaScript chamada ```document```.
 
 - Se introduzir o ```document``` no javascript no seu documento HTML
 ```html
@@ -88,7 +88,7 @@ Curso JavaScript: Programando na linguagem da web: https://cursos.alura.com.br/c
     </script>
 ```
 
-- No navegador ao abrir o console, nota que vai aparecer todo o conteudo HTML da sua pagina. Mais ou Menos assim:
+- No navegador ao abrir o console, nota que vai aparecer todo o conteúdo HTML da sua página. Mais ou menos assim:
 
 ```html
 #document
@@ -99,7 +99,7 @@ Curso JavaScript: Programando na linguagem da web: https://cursos.alura.com.br/c
     </html>
 ```
 
-> Mais se nao quisermos manipular a pagina inteira e sim algo especifico, para isso precisamos usar a ```querySelector```: com ela podemos pegar o item especifico com ```tags``` , ```classes``` ou ```IDs```.
+> Mais se não quisermos manipular a página inteira e sim algo específico, para isso precisamos usar o ```querySelector```: com ela podemos pegar o item especifico com ```tags``` , ```classes``` ou ```IDs```.
 
 
 - nesse estamos pegando uma tag, a ```h1```
@@ -107,7 +107,7 @@ Curso JavaScript: Programando na linguagem da web: https://cursos.alura.com.br/c
     document.querySelector("h1");
 ```
 
-- nesse estamos pegando uma clase, Como todos sabem classes se inicia com ```. ```, ```.exemploClasse```
+- nesse estamos pegando uma clase, como todos sabem classes se iniciam com ```. ```, ```.exemploClasse```
 ```js
     document.querySelector(".exemploClasse");
 ```
